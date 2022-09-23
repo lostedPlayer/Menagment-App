@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Management App</string>
+    <string name="LoginScreen_subhead">Lets get started</string>
+    <string name="loginScreen_subhead_text">Sing up with your existing email and password or create new account</string>
+    <string name="loginScreen_sing_in_button">Sing in</string>
+    <string name="loginScreen_sing_up_button">Sing up</string>
+
+    //SingUp Screen
+    <string name="singUpScreen_header_text">Enter your Name , E-mail and Password to register with us</string>
+    <string name="singupScreen_header_et_name">Name</string>
+    <string name="singupScreen_header_et_email">E-Mail</string>
+    <string name="singupScreen_header_et_password">Password</string>
+
+    //custom strings
+    <string name="backButtonPressedOnce_toast">Click again to exit</string>
+</resources>

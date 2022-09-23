@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/ic_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Activities.IntroActivity">
+
+
+    <TextView
+        android:id="@+id/tv_header_LoginActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/teal_200"
+        android:textSize="@dimen/LoginScreeen_header_tv"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/Iv_LoginActivity"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_task_image" />
+
+    <TextView
+        android:id="@+id/tv_subheader_LoginActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/LoginScreen_subhead"
+        android:textColor="@color/Primary_text_color"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/tv_subheader_text_LoginActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/loginScreen_subhead_text"
+        android:textColor="@color/secundary_text_color"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_sing_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/shape_button_rounded"
+        android:text="@string/loginScreen_sing_in_button"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_sing_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/white_border_shape_button"
+        android:text="@string/loginScreen_sing_up_button"
+        android:textAlignment="center"
+        android:textColor="@color/teal_200"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
